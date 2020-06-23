@@ -110,7 +110,6 @@ document.querySelector(".btn-roll").addEventListener("click" , function(){
             scores[activePlayer] = 0;
             roundScore = 0;
             document.getElementById("score-" + activePlayer).textContent = "0";
-            alert("dunno");
             nextPlayer();
         }
         else{
